@@ -111,4 +111,9 @@ body {
     background: white;
     border: 1px solid black;
   }
+  & :modal {
+    background-color: beige;
+    border: 2px solid burlywood;
+    border-radius: 5px;
+  }
 }

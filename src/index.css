@@ -21,7 +21,6 @@ body {
   height: 100vh;
 }
 .card {
-  background: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 1rem;
   display: flex;
@@ -101,4 +100,15 @@ body {
 }
 .checkBox label {
   color: black;
+}
+.ttt-container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid black;
+  & .Item {
+    height: 100px;
+    background: white;
+    border: 1px solid black;
+  }
 }
